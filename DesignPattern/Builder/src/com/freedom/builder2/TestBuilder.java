@@ -17,14 +17,14 @@ public class TestBuilder {
 		sequence.add("say"); //再说话
 		//然后把这个顺序给白人：
 		whiteHuman.setSequence(sequence);
-		whiteHuman.run();
+		whiteHuman.createHuman();
 		HumanModel blackHuman = new BlackHuman();
 		ArrayList<String> sequence2 = new ArrayList<String>(); //存放run的顺序
 		sequence2.add("say"); //客户要求，先说话
 		sequence2.add("smile"); //再微笑
 		//然后把这个顺序给黑人：
 		blackHuman.setSequence(sequence2);
-		blackHuman.run();
+		blackHuman.createHuman();
 	}
 	
 }

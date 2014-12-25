@@ -17,12 +17,12 @@ public class TestBuilder2 {
 		WhiteHumanBuilder whiteHumanBuilder = new WhiteHumanBuilder();
 		whiteHumanBuilder.setSequence(sequence);
 		WhiteHuman whiteHuman =  (WhiteHuman) whiteHumanBuilder.getHumanModel();
-		whiteHuman.run();
+		whiteHuman.createHuman();
 		//要一个黑人
 		BlackHumanBuilder blackHumanBuilder = new BlackHumanBuilder();
 		blackHumanBuilder.setSequence(sequence);
 		BlackHuman blackHuman =  (BlackHuman) blackHumanBuilder.getHumanModel();
-		blackHuman.run();
+		blackHuman.createHuman();
 	}
 	
 }

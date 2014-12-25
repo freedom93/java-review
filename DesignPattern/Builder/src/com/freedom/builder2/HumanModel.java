@@ -11,7 +11,7 @@ public abstract class HumanModel {
 
 	public abstract void smile();
 
-	final public void run() {
+	final public void createHuman() {
 		//使用数组的遍历，确定那个先执行
 		for (int i = 0; i < this.sequence.size(); i++) {
 			String actionName = this.sequence.get(i);
